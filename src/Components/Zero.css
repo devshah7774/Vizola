@@ -1,0 +1,89 @@
+body {
+   background-image: url("/1-bl.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   overflow-x: hidden;
+}
+
+.nxt {
+   display: flex;
+   justify-content: flex-end;
+   background-size: 100% 100%;
+   background-position: center;
+   height: 600px;
+   background-image: url("/2.png");
+   background-repeat: no-repeat;
+   margin-top: 415px;
+   margin-left: -1%;
+}
+
+.nxt1 {
+   display: flex;
+   justify-content: flex-end;
+   background-size: 100% 100%;
+   background-position: center;
+   height: 600px;
+   background-image: url("/3.png");
+   margin-left: -1%;
+   background-repeat: no-repeat;
+   margin-top: 10px;
+   z-index: 0;
+}
+
+.gradient-text {
+   margin: 1%;
+   margin-top: 5%;
+   font-size: 60px;
+   background: linear-gradient(to right, white, #c85c04);
+   background-clip: text;
+   color: transparent;
+   display: inline-block;
+   padding: 10px;
+   text-align: left;
+   font-weight: bold;
+   -webkit-background-clip: text; 
+}
+
+.gradient-text-nxt {
+   margin: 1%;
+   margin-top: 5%;
+   font-size: 60px;
+   background: linear-gradient(to right, white, #c85c04);
+   background-clip: text;
+   color: transparent;
+   display: inline-block;
+   padding: 10px;
+   text-align: left;
+   font-weight: bold;
+   -webkit-background-clip: text; 
+}
+
+:root {
+   --primary-color: 111, 76, 255;
+   --text-color: 256, 256, 256;
+}
+
+.btn:hover {
+   transition: all 0.3s ease;
+}
+
+.btn-glow:hover {
+   box-shadow: rgba(var(--primary-color), 0.5) 0px 0px 20px 0px;
+}
+
+.btnGrad {
+   font-size: 15px;
+   font-family: "Inter", sans-serif;
+   color: rgba(var(--text-color));
+   border: 2px double transparent;
+   background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+   background-origin: border-box;
+   background-clip: padding-box, border-box;
+   margin-left: 2%;
+   margin-top: -1%;
+   transform: translateY(500px) translateX(-1200px);
+   width: 7vw;
+   height: 8vh;
+   border-radius: 10px; 
+   cursor: pointer;
+}
